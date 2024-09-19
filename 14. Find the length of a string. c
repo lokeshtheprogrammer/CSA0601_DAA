@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <string.h>
+
+int length_string(char str[]) {
+    return strlen(str);
+}
+
+int main() {
+    char str[100];
+    printf("Enter a string: ");
+    scanf("%s", str);
+    int len = length_string(str);
+    printf("Length of the string: %d\n", len);
+    return 0;
+}
